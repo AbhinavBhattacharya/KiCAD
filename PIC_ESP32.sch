@@ -1432,7 +1432,7 @@ Wire Wire Line
 	2050 6900 2300 6900
 Connection ~ 2300 6900
 Wire Wire Line
-	2300 6900 3150 6900
+	2300 6900 2650 6900
 Wire Wire Line
 	3150 6900 3400 6900
 Connection ~ 3150 6900
@@ -1650,4 +1650,17 @@ Wire Wire Line
 Wire Wire Line
 	9600 3050 9750 3050
 NoConn ~ 9750 3550
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 608CC477
+P 2750 6900
+F 0 "F1" V 2545 6900 50  0000 C CNN
+F 1 "Polyfuse_Small" V 2636 6900 50  0000 C CNN
+F 2 "" H 2800 6700 50  0001 L CNN
+F 3 "~" H 2750 6900 50  0001 C CNN
+	1    2750 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 6900 3150 6900
 $EndSCHEMATC
